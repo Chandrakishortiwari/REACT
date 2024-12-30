@@ -4,6 +4,7 @@ import Props2 from "./Components/Props2";
 import Counter from "./Components/Hooks/Counter";
 import Mapproduct from "./Components/Map/Mapproduct";
 import UseEffecthook from "./Components/Hooks/UseEffecthook";
+import Fatch_data_api from "./Components/Fatch_api/Fatch_data_api";
 
 function App() {
 
@@ -30,7 +31,9 @@ function App() {
 
       {/* <Mapproduct /> */}
 
-      <UseEffecthook />
+      {/* <UseEffecthook /> */}
+
+      <Fatch_data_api />
 
         
 
