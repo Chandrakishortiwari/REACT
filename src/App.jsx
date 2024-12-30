@@ -3,6 +3,7 @@ import Product from "./Components/Product";
 import Props2 from "./Components/Props2";
 import Counter from "./Components/Hooks/Counter";
 import Mapproduct from "./Components/Map/Mapproduct";
+import UseEffecthook from "./Components/Hooks/UseEffecthook";
 
 function App() {
 
@@ -27,7 +28,9 @@ function App() {
 
       {/* <Counter /> */}
 
-      <Mapproduct />
+      {/* <Mapproduct /> */}
+
+      <UseEffecthook />
 
         
 
