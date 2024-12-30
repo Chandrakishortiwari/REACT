@@ -1,15 +1,18 @@
 import { useState } from "react";
 import Product from "./Components/Product";
 import Props2 from "./Components/Props2";
+import Counter from "./Components/Hooks/Counter";
 
 function App() {
-  const obj = {
-    title: "I Phone",
-    Brand: "Apple",
-    Price: "80000",
-    Ram: "8gb",
-    rom: "1tv",
-  };
+
+  // props2 ke liye object create kiya tha
+  // const obj = {
+  //   title: "I Phone",
+  //   Brand: "Apple",
+  //   Price: "80000",
+  //   Ram: "8gb",
+  //   rom: "1tv",
+  // };
 
   return (
     <>
@@ -19,7 +22,12 @@ function App() {
      <Product title= "I Phone" Brand="Apple" Price={80000} Ram="8gb" rom="1tv" />
       */}
 
-      <Props2 obj={obj} />
+      {/* <Props2 obj={obj} /> */}
+
+      {/* <Counter /> */}
+
+        
+
     </>
   );
 }
