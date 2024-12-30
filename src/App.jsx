@@ -2,6 +2,7 @@ import { useState } from "react";
 import Product from "./Components/Product";
 import Props2 from "./Components/Props2";
 import Counter from "./Components/Hooks/Counter";
+import Mapproduct from "./Components/Map/Mapproduct";
 
 function App() {
 
@@ -25,6 +26,8 @@ function App() {
       {/* <Props2 obj={obj} /> */}
 
       {/* <Counter /> */}
+
+      <Mapproduct />
 
         
 
