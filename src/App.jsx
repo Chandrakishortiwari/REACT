@@ -6,6 +6,7 @@ import Mapproduct from "./Components/Map/Mapproduct";
 import UseEffecthook from "./Components/Hooks/UseEffecthook";
 import Fatch_data_api from "./Components/Fatch_api/Fatch_data_api";
 import FilterProduct from "./Components/Filter/FilterProduct";
+import FormHendel from "./Components/FromHendling/FormHendel";
 
 function App() {
 
@@ -36,9 +37,9 @@ function App() {
 
       {/* <Fatch_data_api /> */}
 
-      <FilterProduct />
+      {/* <FilterProduct /> */}
 
-        
+        <FormHendel />
 
     </>
   );
