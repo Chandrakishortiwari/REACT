@@ -5,6 +5,7 @@ import Counter from "./Components/Hooks/Counter";
 import Mapproduct from "./Components/Map/Mapproduct";
 import UseEffecthook from "./Components/Hooks/UseEffecthook";
 import Fatch_data_api from "./Components/Fatch_api/Fatch_data_api";
+import FilterProduct from "./Components/Filter/FilterProduct";
 
 function App() {
 
@@ -33,7 +34,9 @@ function App() {
 
       {/* <UseEffecthook /> */}
 
-      <Fatch_data_api />
+      {/* <Fatch_data_api /> */}
+
+      <FilterProduct />
 
         
 
