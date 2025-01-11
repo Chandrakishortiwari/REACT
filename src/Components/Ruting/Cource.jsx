@@ -15,7 +15,7 @@ function Cource() {
  
         <ul>
         {arr.map((data)=> <div key={data.id}>
-          <li> <Link to={`/cource/${data.name}`}>{data.name}</Link></li>
+          <li> <Link to={`/cource/${data.id}`}>{data.name}</Link></li>
         </div>)}
         </ul>
 
@@ -24,4 +24,6 @@ function Cource() {
   )
 }
 
-export default Cource
+export default Cource   
+
+
