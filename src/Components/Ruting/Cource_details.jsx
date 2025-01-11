@@ -1,5 +1,5 @@
 import React from 'react';
-import {useParams,Link} from "react-router";
+import {useParams,Link,useLocation} from "react-router";
 
 function Cource_details() {
    
@@ -16,6 +16,7 @@ function Cource_details() {
   const {id} = useParams();
   console.log(id);
   const Cource_filter = arr.filter((data)=> data.id == id);
+  const location =  useLocation();
   
   return (
     <div>
@@ -23,8 +24,11 @@ function Cource_details() {
      {Cource_filter.map((data) => (
         <div key={data.id}>
           <h1>Course Name: {data.name}</h1>
-          <h3>Course Duration: {data.Duration}</h3>
-          <p>Course Price: {data.Price}</p>
+          {location.pathname != '/cource/02' && <div>
+           <h3>Course Duration: {data.Duration}</h3>
+           <p>Course Price: {data.Price}</p>
+          </div> }
+         
           <button><Link to={'/cource'}>All Cource</Link></button>
         </div>
       ))}
