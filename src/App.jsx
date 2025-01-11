@@ -8,6 +8,7 @@ import Fatch_data_api from "./Components/Fatch_api/Fatch_data_api";
 import FilterProduct from "./Components/Filter/FilterProduct";
 import FormHendel from "./Components/FromHendling/FormHendel";
 import MultipalInputHendling from "./Components/FromHendling/MultipalInputHendling";
+import RoutingMain from "./Components/Ruting/RoutingMain";
 
 function App() {
 
@@ -42,7 +43,8 @@ function App() {
 
         {/* <FormHendel /> */}
 
-        <MultipalInputHendling />
+        {/* <MultipalInputHendling /> */}
+        <RoutingMain />
 
     </>
   );
