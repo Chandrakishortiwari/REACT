@@ -6,12 +6,14 @@ import Home from './Home';
 import Team from './Team';
 import Cource from './Cource';
 import Cource_details from './Cource_details';
+import Navigate from '../Navigation_bar/Navigate';
 
 function RoutingMain() {
   return (
     <div>
-
+   
         <BrowserRouter>
+        <Navigate />
         <Routes>
       <Route path="/" element={ <Home />} />
       <Route path="/contact" element={<Contact />} />

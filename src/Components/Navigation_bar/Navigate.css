@@ -1,0 +1,11 @@
+.right{
+    display: flex;
+    text-decoration: none;
+    gap: 9px;
+    
+}
+.mainnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
