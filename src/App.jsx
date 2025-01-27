@@ -9,6 +9,7 @@ import FilterProduct from "./Components/Filter/FilterProduct";
 import FormHendel from "./Components/FromHendling/FormHendel";
 import MultipalInputHendling from "./Components/FromHendling/MultipalInputHendling";
 import RoutingMain from "./Components/Ruting/RoutingMain";
+import PropsDrilling from "./Components/PropsDrilling/PropsDrilling";
 
 function App() {
 
@@ -44,7 +45,8 @@ function App() {
         {/* <FormHendel /> */}
 
         {/* <MultipalInputHendling /> */}
-        <RoutingMain />
+        {/* <RoutingMain /> */}
+        <PropsDrilling />
 
     </>
   );
