@@ -1,11 +1,11 @@
 import React from 'react'
 import Child2 from './Child2'
 
-function Child1({name}) {
+function Child1() {
     
   return (
     <div>Child1
-        <Child2 name ={name} />
+        <Child2  />
     </div>
   )
 }

@@ -1,13 +1,26 @@
-import React from 'react'
+import React from 'react';
+import {data, data1} from './PropsDrilling'
 
-function Child3({name}) {
-    console.log(name);
+function Child3() {
+   
   return (
-    <div>Child3
-        <h1>
-           name:-{name}
-        </h1>
-    </div>
+    <>
+    
+    <data.Consumer>
+        {(name) => {
+          return(
+            <data1.Consumer>
+            {(son) => {
+              return( <h1> my name is {name} son of {son}</h1>)
+            }}
+          </data1.Consumer>
+
+            )
+        }}
+      </data.Consumer>
+    
+       
+    </>
   )
 }
 
