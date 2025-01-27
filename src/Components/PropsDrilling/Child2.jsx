@@ -5,7 +5,7 @@ function Child2() {
   
     
   return (
-    <div>Child2
+    <div>
         <Child3  />
     </div>
   )
