@@ -11,6 +11,8 @@ import MultipalInputHendling from "./Components/FromHendling/MultipalInputHendli
 import RoutingMain from "./Components/Ruting/RoutingMain";
 import PropsDrilling from "./Components/PropsDrilling/PropsDrilling";
 import CreateNo_Off_button from "./Components/Pratices_Work/CreateNo_Off_button";
+import UseReducer from "./Components/Hooks/UseReducer";
+
 
 function App() {
 
@@ -49,7 +51,10 @@ function App() {
         {/* <RoutingMain /> */}
         {/* <PropsDrilling /> */}
 
-        <CreateNo_Off_button />
+        {/* <CreateNo_Off_button /> */}
+
+      <UseReducer />
+
 
     </>
   );
