@@ -29,7 +29,8 @@ function UseReducer() {
         <button onClick={()=> state.counter > 0 && dispatch({type :'DECREMENT'})}> Sub</button>
 
 
-        <button  onClick={()=> dispatch({type :'TOGGLE'})}> Hidden</button>
+        <button  onClick={()=> dispatch({type :'TOGGLE'})}>
+            {state.hideen ? "Show ":" Hidden"} </button>
 
         {state.hideen ? <h1>hidden</h1> : <h1>not hidden</h1>}
 

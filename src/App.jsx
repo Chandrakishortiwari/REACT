@@ -12,6 +12,7 @@ import RoutingMain from "./Components/Ruting/RoutingMain";
 import PropsDrilling from "./Components/PropsDrilling/PropsDrilling";
 import CreateNo_Off_button from "./Components/Pratices_Work/CreateNo_Off_button";
 import UseReducer from "./Components/Hooks/UseReducer";
+import CustomeHook from "./Components/CustomeHook/CustomeHook";
 
 
 function App() {
@@ -53,7 +54,9 @@ function App() {
 
         {/* <CreateNo_Off_button /> */}
 
-      <UseReducer />
+      {/* <UseReducer /> */}
+
+      <CustomeHook />
 
 
     </>
