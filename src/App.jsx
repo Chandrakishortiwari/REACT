@@ -15,6 +15,7 @@ import UseReducer from "./Components/Hooks/UseReducer";
 import CustomeHook from "./Components/CustomeHook/CustomeHook";
 import Datafatching from "./Components/Axios_method/Datafatching";
 import PostMethod from "./Components/Axios_method/PostMethod";
+import UpdateAxios from "./Components/Axios_method/UpdateAxios";
 
 
 function App() {
@@ -60,7 +61,9 @@ function App() {
 
       {/* <CustomeHook /> */}
       {/* <Datafatching /> */}
-      <PostMethod />
+      {/* <PostMethod /> */}
+
+      <UpdateAxios />
 
 
     </>
