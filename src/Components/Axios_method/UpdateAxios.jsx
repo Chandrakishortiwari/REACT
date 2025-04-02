@@ -25,6 +25,14 @@ function UpdateAxios() {
   
     })
  }
+ const hendeleDelete = (e)=>{
+    e.preventDefault();
+    axios.put("https://jsonplaceholder.typicode.com/users/1")
+    .then((response) =>{
+  console.log(response);
+  
+    })
+ }
 
   return (
     <>
@@ -34,6 +42,7 @@ function UpdateAxios() {
     <input type='text' name='lname' value={input.lname} onChange={handleData}/>
     <button onClick={hendleSubmit}>Submit</button>
     <button onClick={hendeleUpdate}>Update</button>
+    <button onClick={hendeleDelete}>Delete</button>
  
      </>
   )
