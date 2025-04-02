@@ -14,6 +14,7 @@ import CreateNo_Off_button from "./Components/Pratices_Work/CreateNo_Off_button"
 import UseReducer from "./Components/Hooks/UseReducer";
 import CustomeHook from "./Components/CustomeHook/CustomeHook";
 import Datafatching from "./Components/Axios_method/Datafatching";
+import PostMethod from "./Components/Axios_method/PostMethod";
 
 
 function App() {
@@ -58,7 +59,8 @@ function App() {
       {/* <UseReducer /> */}
 
       {/* <CustomeHook /> */}
-      <Datafatching />
+      {/* <Datafatching /> */}
+      <PostMethod />
 
 
     </>
