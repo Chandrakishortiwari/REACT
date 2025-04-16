@@ -16,6 +16,7 @@ import CustomeHook from "./Components/CustomeHook/CustomeHook";
 import Datafatching from "./Components/Axios_method/Datafatching";
 import PostMethod from "./Components/Axios_method/PostMethod";
 import UpdateAxios from "./Components/Axios_method/UpdateAxios";
+import Pagination from "./Components/Pagination/Pagination";
 
 
 function App() {
@@ -63,7 +64,9 @@ function App() {
       {/* <Datafatching /> */}
       {/* <PostMethod /> */}
 
-      <UpdateAxios />
+      {/* <UpdateAxios /> */}
+
+      <Pagination />
 
 
     </>
