@@ -17,6 +17,7 @@ import Datafatching from "./Components/Axios_method/Datafatching";
 import PostMethod from "./Components/Axios_method/PostMethod";
 import UpdateAxios from "./Components/Axios_method/UpdateAxios";
 import Pagination from "./Components/Pagination/Pagination";
+import ButtomToTop from "./Components/ScrollButtomToTop/ButtomToTop";
 
 
 function App() {
@@ -66,7 +67,9 @@ function App() {
 
       {/* <UpdateAxios /> */}
 
-      <Pagination />
+      {/* <Pagination /> */}
+
+      <ButtomToTop />
 
 
     </>
