@@ -18,6 +18,7 @@ import PostMethod from "./Components/Axios_method/PostMethod";
 import UpdateAxios from "./Components/Axios_method/UpdateAxios";
 import Pagination from "./Components/Pagination/Pagination";
 import ButtomToTop from "./Components/ScrollButtomToTop/ButtomToTop";
+import GoTopButton from "./Components/ScrollButtomToTop/GoTopButton";
 
 
 function App() {
@@ -69,7 +70,8 @@ function App() {
 
       {/* <Pagination /> */}
 
-      <ButtomToTop />
+      {/* <ButtomToTop /> */}
+      <GoTopButton />
 
 
     </>
