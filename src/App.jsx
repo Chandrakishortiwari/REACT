@@ -19,6 +19,7 @@ import UpdateAxios from "./Components/Axios_method/UpdateAxios";
 import Pagination from "./Components/Pagination/Pagination";
 import ButtomToTop from "./Components/ScrollButtomToTop/ButtomToTop";
 import GoTopButton from "./Components/ScrollButtomToTop/GoTopButton";
+import MainRought from "./Components/NestedRouting/MainRought";
 
 
 function App() {
@@ -71,7 +72,10 @@ function App() {
       {/* <Pagination /> */}
 
       {/* <ButtomToTop /> */}
-      <GoTopButton />
+      {/* <GoTopButton /> */}
+
+      {/* nested Routing */}
+      <MainRought />
 
 
     </>
